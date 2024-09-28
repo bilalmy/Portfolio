@@ -1,0 +1,76 @@
+.flex_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_container > .horizontal-container img {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.flex_container > .header_flex {
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header_flex > #divbar > img {
+  width: 24px;
+  height: 24px;
+  padding: 6px 3px 6px 3px;
+  gap: 0;
+  opacity: 0;
+  margin-top: 44px;
+}
+
+.header_flex > h1 {
+  color: rgba(0, 0, 255, 0.999);
+  margin-left: 30px;
+  width: 375px;
+  height: 48px;
+  margin-top: 44px;
+}
+
+.headline_flex {
+  justify-content: flex-start;
+  width: 375px;
+  height: 640px;
+  padding: 11px 24px;
+  margin-top: 10px;
+}
+
+#mainHeading {
+  font-size: 40px;
+  color: #172b4d;
+  font-weight: 700;
+  line-height: 52px;
+  padding-top: 40px;
+}
+
+#label2 {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#label3 {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+/* Flexbox for the social media icons */
+.horizontal-container {
+  gap: 10px;
+}
+
+body {
+  background-image: url("pics/header-shapes mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
