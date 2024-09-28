@@ -1,0 +1,29 @@
+.flex_container
+{
+  display: flex;
+  flex-direction: column;
+}
+.flex_container > .header_flex {
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header_flex > #divbar>img
+{
+  width: 24px;
+  height: 24px;
+  padding: 6px 3px 6px 3px;
+  gap: 0px; 
+  opacity: 0px; 
+  margin-top: 44px;
+}
+
+.header_flex > h1{
+color:rgba(0, 0, 255, 0.999);
+margin-left: 30px;
+width: 375px;
+height: 48px;
+margin-top: 44px;
+}
