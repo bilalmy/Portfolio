@@ -3,6 +3,11 @@
   flex-direction: column;
 }
 
+.flex_container > .horizontal-container img {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
 .flex_container > .header_flex {
   display: flex;
   justify-content: space-between;
@@ -25,4 +30,47 @@
   width: 375px;
   height: 48px;
   margin-top: 44px;
+}
+
+.headline_flex {
+  justify-content: flex-start;
+  width: 375px;
+  height: 640px;
+  padding: 11px 24px;
+  margin-top: 10px;
+}
+
+#mainHeading {
+  font-size: 40px;
+  color: #172b4d;
+  font-weight: 700;
+  line-height: 52px;
+  padding-top: 40px;
+}
+
+#label2 {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#label3 {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+/* Flexbox for the social media icons */
+.horizontal-container {
+  gap: 10px;
+}
+
+body {
+  background-image: url("pics/header-shapes mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
