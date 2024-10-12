@@ -64,7 +64,7 @@
   justify-content: flex-start;
   width: 365px;
   height: 640px;
-  padding: 11px 0px 11px 10px;
+  padding: 11px 0 11px 10px;
   margin-top: 10px;
   background-image: url("pics/header-shapes mobile.jpg");
   background-repeat: no-repeat;
@@ -589,5 +589,3 @@
   height: 25px;
   padding-top: 10px;
 }
-
-
