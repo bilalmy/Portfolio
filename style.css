@@ -62,13 +62,13 @@
 
 .headline_flex {
   justify-content: flex-start;
-  width: 375px;
+  width: 365px;
   height: 640px;
-  padding: 11px 10px;
+  padding: 11px 0px 11px 10px;
   margin-top: 10px;
   background-image: url("pics/header-shapes mobile.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 375px 570px;
   background-position: center;
   font-family: 'Poppins', sans-serif;
 }
@@ -99,8 +99,10 @@
 
 .MainWork {
   display: grid;
+  align-items: center;
+  justify-content: center;
   height: 2750px;
-  width: 375px;
+  width: 327px;
   top: 718px;
   padding: 114px 24px 114px 24px;
   gap: 88px;
@@ -113,6 +115,7 @@
   flex-direction: row;
   width: 327px;
   height: 552px;
+  margin-right: 13px;
   gap: 12px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
@@ -319,7 +322,7 @@
   flex-direction: column;
   background-color: white;
   height: 950px;
-  width: 305px;
+  width: 326px;
   padding: 114px 24px 114px 24px;
   gap: 24px;
   border: 1px solid white;
@@ -526,21 +529,24 @@
 }
 
 .comment {
-  width: 327px;
-  height: 170px;
-  padding-top: 10px;
-  padding-left: 24px;
+  width: 290px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 23px;
 }
 
-.comment > input {
-  width: 290px;
-  height: 140px;
+.comment > textarea {
+  width: 100%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  line-height: 24px;
   color: #b3bac5;
   border: 1px solid white;
   border-radius: 7px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: none;
+  overflow: hidden;
 }
 
 #end {
@@ -567,7 +573,7 @@
 #ellipse {
   width: 40px;
   height: 40px;
-  padding-left: 345px;
+  padding-left: 335px;
   margin-top: 0;
 }
 
@@ -578,8 +584,10 @@
 }
 
 .lastImg > #ellipse1 {
-  padding-left: 110px;
+  padding-left: 90px;
   width: 31px;
   height: 25px;
   padding-top: 10px;
 }
+
+
