@@ -1,8 +1,17 @@
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 779px) {
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
   .flex_container {
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 100%;
     height: 645px;
   }
 
@@ -21,7 +30,7 @@
   .header_flex {
     display: flex;
     justify-content: space-between;
-    width: 375px;
+    width: 100%;
     height: 48px;
     font-family: 'Poppins', sans-serif;
   }
@@ -63,13 +72,13 @@
 
   .headline_flex {
     justify-content: flex-start;
-    width: 365px;
+    width: 100%;
     height: 640px;
     padding: 11px 0 11px 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     background-image: url("pics/header-shapes\ mobile.jpg");
     background-repeat: no-repeat;
-    background-size: 375px 570px;
+    background-size: 100% 570px;
     background-position: center;
     font-family: 'Poppins', sans-serif;
   }
@@ -79,7 +88,8 @@
     color: #172b4d;
     font-weight: 700;
     line-height: 52px;
-    padding-top: 40px;
+    padding-top: 80px;
+    padding-left: 10px;
   }
 
   #label2 {
@@ -89,6 +99,7 @@
     color: #344563;
     font-weight: 400;
     line-height: 24px;
+    padding-left: 10px;
   }
 
   .Letconnect {
@@ -96,6 +107,7 @@
     font-weight: 500;
     line-height: 24px;
     color: #7f8cff;
+    padding-left: 10px;
   }
 
   .MainWork {
@@ -103,7 +115,7 @@
     align-items: center;
     justify-content: center;
     height: 2750px;
-    width: 327px;
+    width: 100%;
     top: 718px;
     padding: 114px 24px 114px 24px;
     gap: 88px;
@@ -323,7 +335,7 @@
     flex-direction: column;
     background-color: white;
     height: 950px;
-    width: 326px;
+    width: 100%;
     padding: 114px 24px 114px 24px;
     gap: 24px;
     border: 1px solid white;
@@ -474,7 +486,7 @@
     display: flex;
     flex-direction: column;
     height: 700px;
-    width: 375px;
+    width: 100%;
     background-color: #6070ff;
     border-top-left-radius: 70px;
   }
@@ -556,55 +568,26 @@
 
   #end {
     border: 3px solid black;
-    margin-top: 50px;
-    margin-left: 120px;
-    margin-right: 120px;
-  }
-
-  #circle {
-    width: 21px;
-    height: 21px;
-    padding-left: 153px;
-    margin-top: 10px;
-  }
-
-  #rectangle {
-    width: 60px;
-    height: 25px;
-    padding-left: 300px;
-    margin-top: 15px;
-  }
-
-  #ellipse {
-    width: 40px;
-    height: 40px;
-    padding-left: 335px;
-    margin-top: 0;
-  }
-
-  .lastImg {
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-  }
-
-  .lastImg > #ellipse1 {
-    padding-left: 90px;
-    width: 31px;
-    height: 25px;
-    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
 }
 
-@media only  screen and (min-width: 399px) {
+@media only  screen and (min-width: 780px) {
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+
   .flex_container {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
     height: 940px;
     background-image: url("pics/BG.png");
     background-repeat: no-repeat;
-    background-size: 1440px 940px;
+    background-size: 100% 940px;
     background-position: center;
     font-family: 'Poppins', sans-serif;
   }
@@ -624,17 +607,9 @@
   .header_flex {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 100%;
     height: 72px;
     font-family: 'Poppins', sans-serif;
-  }
-
-  .imageProject2 > img {
-    width: 544px;
-    height: 448px;
-    border-radius: 8px;
-    margin-left: 18px;
-    margin-top: 20px;
   }
 
   .java > img {
@@ -667,11 +642,11 @@
 
   .headline_flex {
     justify-content: flex-start;
-    width: 1440px;
+    width: 100%;
     height: 846px;
     padding: 11px 0 11px 0;
     margin-left: 260px;
-    margin-top: 100px;
+    margin-top: 200px;
     gap: 12px;
   }
 
@@ -682,7 +657,7 @@
 
   #mainHeading > h1 {
     font-size: 40px;
-    color: #172b4d;
+    color: #091e42;
     font-weight: 700;
     line-height: 52px;
     padding-top: 40px;
@@ -691,6 +666,7 @@
   #label2 {
     width: 720px;
     height: 98px;
+    padding-top: 30px;
     font-size: 18px;
     color: #344563;
     font-weight: 400;
@@ -709,14 +685,15 @@
     align-items: center;
     justify-content: center;
     height: 2695px;
-    width: 1440px;
+    width: 100%;
     top: 917px;
     padding: 0;
     gap: 142px;
     background-color: #f7f7f9;
   }
 
-  .box {
+  .box,
+  .BoxTwo {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -726,6 +703,14 @@
     border: 1px solid #dfe1e6;
     background-color: #fff;
     border-radius: 16px;
+  }
+
+  .imageProject2 > img {
+    width: 544px;
+    height: 448px;
+    border-radius: 8px;
+    margin-left: 18px;
+    margin-top: 20px;
   }
 
   .imageProject1 > img {
@@ -874,18 +859,6 @@
     letter-spacing: 3%;
   }
 
-  .BoxTwo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 1156px;
-    height: 494px;
-    gap: 8px;
-    border: 1px solid #dfe1e6;
-    background-color: #fff;
-    border-radius: 16px;
-  }
-
   .description_container2 {
     height: 445px;
     width: 544px;
@@ -940,7 +913,7 @@
     align-items: center;
     background-color: #fff;
     height: 924px;
-    width: 1440px;
+    width: 100%;
     padding-top: 124px;
     gap: 24px;
     border-top-right-radius: 30px;
@@ -1094,13 +1067,18 @@
     flex-direction: column;
     align-items: center;
     height: 846px;
-    width: 1440px;
+    width: 100%;
     background-color: #6070ff;
     border-top-left-radius: 70px;
+    background-image: url("pics/contentFormBGDSK.png");
+    background-repeat: no-repeat;
+    background-size: 846px;
+    background-position: center;
   }
 
   #contactme {
     display: flex;
+    padding-top: 180px;
     height: 50px;
     width: 375px;
     flex-direction: row;
@@ -1170,13 +1148,11 @@
   }
 
   #circle {
-    width: 21px;
-    height: 21px;
-    padding-left: 153px;
-    margin-top: 10px;
+    display: none;
   }
 
   #rectangle {
+    display: none;
     width: 90px;
     height: 90px;
     padding-left: 1200px;
@@ -1184,22 +1160,14 @@
   }
 
   #ellipse {
-    width: 100px;
-    height: 100px;
-    padding-left: 1225px;
+    display: none;
   }
 
-  .lastImg {
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    width: 100px;
+  #ellipse2 {
+    display: none;
   }
 
   .lastImg > #ellipse1 {
-    padding-left: 90px;
-    width: 100px;
-    height: 75px;
-    padding-top: 10px;
+    display: none;
   }
 }
