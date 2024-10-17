@@ -617,8 +617,4 @@ body {
   }
 }
 
-@media screen and (min-width: 769px) {
-  body {
-    display: none;
-  }
-}
+
