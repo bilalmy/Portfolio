@@ -102,10 +102,11 @@ body {
     line-height: 24px;
     padding-left: 10px;
   }
-  #menudiv
-  {
+
+  #menudiv {
     display: none;
   }
+
   .Letconnect {
     font-size: 16px;
     font-weight: 500;
@@ -675,23 +676,20 @@ body {
   }
 
   #imagediv {
-   display: none;
+    display: none;
   }
 
-  #menudiv
-  {
-    width:230px;
+  #menudiv {
+    width: 230px;
     margin-top: 20px;
     padding-right: 150px;
   }
 
-   #menudiv>a
-  {
+  #menudiv > a {
     text-decoration: none;
     color: black;
-  padding-left: 20px;
+    padding-left: 20px;
   }
-  
 
   #logoId {
     width: 375px;
